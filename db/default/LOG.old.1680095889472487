@@ -1,0 +1,97 @@
+2023/03/29-14:53:13.274354 2a8c RocksDB version: 6.10.0
+2023/03/29-14:53:13.274500 2a8c Git sha rocksdb_build_git_sha:@@GIT_SHA@@
+2023/03/29-14:53:13.274540 2a8c Compile date Aug 26 2022
+2023/03/29-14:53:13.274561 2a8c DB SUMMARY
+2023/03/29-14:53:13.276589 2a8c CURRENT file:  CURRENT
+2023/03/29-14:53:13.276642 2a8c IDENTITY file:  IDENTITY
+2023/03/29-14:53:13.276820 2a8c MANIFEST file:  MANIFEST-000279 size: 514 Bytes
+2023/03/29-14:53:13.276872 2a8c SST files in C:\Users\Administrator\Desktop\eth-qb\db\default dir, Total Num: 3, files: 000273.sst 000275.sst 000278.sst 
+2023/03/29-14:53:13.276908 2a8c Write Ahead Log file in C:\Users\Administrator\Desktop\eth-qb\db\default: 000280.log size: 63 ; 
+2023/03/29-14:53:13.276946 2a8c                         Options.error_if_exists: 0
+2023/03/29-14:53:13.277210 2a8c                       Options.create_if_missing: 1
+2023/03/29-14:53:13.277232 2a8c                         Options.paranoid_checks: 1
+2023/03/29-14:53:13.277242 2a8c                                     Options.env: 000002C8F05231E0
+2023/03/29-14:53:13.277252 2a8c                                      Options.fs: Legacy File System
+2023/03/29-14:53:13.277261 2a8c                                Options.info_log: 000002C8C3BEF2C0
+2023/03/29-14:53:13.277268 2a8c                Options.max_file_opening_threads: 16
+2023/03/29-14:53:13.277277 2a8c                              Options.statistics: 0000000000000000
+2023/03/29-14:53:13.277283 2a8c                               Options.use_fsync: 0
+2023/03/29-14:53:13.277291 2a8c                       Options.max_log_file_size: 0
+2023/03/29-14:53:13.277299 2a8c                  Options.max_manifest_file_size: 1073741824
+2023/03/29-14:53:13.277308 2a8c                   Options.log_file_time_to_roll: 0
+2023/03/29-14:53:13.277316 2a8c                       Options.keep_log_file_num: 10
+2023/03/29-14:53:13.277325 2a8c                    Options.recycle_log_file_num: 0
+2023/03/29-14:53:13.277334 2a8c                         Options.allow_fallocate: 1
+2023/03/29-14:53:13.277342 2a8c                        Options.allow_mmap_reads: 0
+2023/03/29-14:53:13.277351 2a8c                       Options.allow_mmap_writes: 0
+2023/03/29-14:53:13.277359 2a8c                        Options.use_direct_reads: 0
+2023/03/29-14:53:13.277368 2a8c                        Options.use_direct_io_for_flush_and_compaction: 0
+2023/03/29-14:53:13.277377 2a8c          Options.create_missing_column_families: 0
+2023/03/29-14:53:13.277386 2a8c                              Options.db_log_dir: 
+2023/03/29-14:53:13.277395 2a8c                                 Options.wal_dir: C:\Users\Administrator\Desktop\eth-qb\db\default
+2023/03/29-14:53:13.277404 2a8c                Options.table_cache_numshardbits: 6
+2023/03/29-14:53:13.277413 2a8c                      Options.max_subcompactions: 1
+2023/03/29-14:53:13.277422 2a8c                         Options.WAL_ttl_seconds: 0
+2023/03/29-14:53:13.277431 2a8c                       Options.WAL_size_limit_MB: 0
+2023/03/29-14:53:13.277439 2a8c                        Options.max_write_batch_group_size_bytes: 1048576
+2023/03/29-14:53:13.277447 2a8c             Options.manifest_preallocation_size: 4194304
+2023/03/29-14:53:13.277455 2a8c                     Options.is_fd_close_on_exec: 1
+2023/03/29-14:53:13.277463 2a8c                   Options.advise_random_on_open: 1
+2023/03/29-14:53:13.277510 2a8c                    Options.db_write_buffer_size: 0
+2023/03/29-14:53:13.277519 2a8c                    Options.write_buffer_manager: 000002C8C38BCEF0
+2023/03/29-14:53:13.277528 2a8c         Options.access_hint_on_compaction_start: 1
+2023/03/29-14:53:13.277536 2a8c  Options.new_table_reader_for_compaction_inputs: 0
+2023/03/29-14:53:13.277544 2a8c           Options.random_access_max_buffer_size: 1048576
+2023/03/29-14:53:13.277553 2a8c                      Options.use_adaptive_mutex: 0
+2023/03/29-14:53:13.277562 2a8c                            Options.rate_limiter: 0000000000000000
+2023/03/29-14:53:13.277571 2a8c     Options.sst_file_manager.rate_bytes_per_sec: 0
+2023/03/29-14:53:13.277580 2a8c                       Options.wal_recovery_mode: 2
+2023/03/29-14:53:13.277648 2a8c                  Options.enable_thread_tracking: 0
+2023/03/29-14:53:13.277667 2a8c                  Options.enable_pipelined_write: 0
+2023/03/29-14:53:13.277676 2a8c                  Options.unordered_write: 0
+2023/03/29-14:53:13.277685 2a8c         Options.allow_concurrent_memtable_write: 1
+2023/03/29-14:53:13.277693 2a8c      Options.enable_write_thread_adaptive_yield: 1
+2023/03/29-14:53:13.277702 2a8c             Options.write_thread_max_yield_usec: 100
+2023/03/29-14:53:13.277710 2a8c            Options.write_thread_slow_yield_usec: 3
+2023/03/29-14:53:13.277719 2a8c                               Options.row_cache: None
+2023/03/29-14:53:13.277728 2a8c                              Options.wal_filter: None
+2023/03/29-14:53:13.277737 2a8c             Options.avoid_flush_during_recovery: 0
+2023/03/29-14:53:13.277745 2a8c             Options.allow_ingest_behind: 0
+2023/03/29-14:53:13.277754 2a8c             Options.preserve_deletes: 0
+2023/03/29-14:53:13.277763 2a8c             Options.two_write_queues: 0
+2023/03/29-14:53:13.277771 2a8c             Options.manual_wal_flush: 0
+2023/03/29-14:53:13.277780 2a8c             Options.atomic_flush: 0
+2023/03/29-14:53:13.277788 2a8c             Options.avoid_unnecessary_blocking_io: 0
+2023/03/29-14:53:13.277796 2a8c                 Options.persist_stats_to_disk: 0
+2023/03/29-14:53:13.277804 2a8c                 Options.write_dbid_to_manifest: 0
+2023/03/29-14:53:13.277812 2a8c                 Options.log_readahead_size: 0
+2023/03/29-14:53:13.277826 2a8c                 Options.file_checksum_gen_factory: Unknown
+2023/03/29-14:53:13.277834 2a8c                 Options.best_efforts_recovery: 0
+2023/03/29-14:53:13.277843 2a8c             Options.max_background_jobs: 2
+2023/03/29-14:53:13.277850 2a8c             Options.max_background_compactions: -1
+2023/03/29-14:53:13.277858 2a8c             Options.avoid_flush_during_shutdown: 0
+2023/03/29-14:53:13.277867 2a8c           Options.writable_file_max_buffer_size: 1048576
+2023/03/29-14:53:13.277875 2a8c             Options.delayed_write_rate : 16777216
+2023/03/29-14:53:13.277882 2a8c             Options.max_total_wal_size: 0
+2023/03/29-14:53:13.277890 2a8c             Options.delete_obsolete_files_period_micros: 21600000000
+2023/03/29-14:53:13.277898 2a8c                   Options.stats_dump_period_sec: 600
+2023/03/29-14:53:13.277906 2a8c                 Options.stats_persist_period_sec: 600
+2023/03/29-14:53:13.277915 2a8c                 Options.stats_history_buffer_size: 1048576
+2023/03/29-14:53:13.277922 2a8c                          Options.max_open_files: -1
+2023/03/29-14:53:13.277930 2a8c                          Options.bytes_per_sync: 0
+2023/03/29-14:53:13.277938 2a8c                      Options.wal_bytes_per_sync: 0
+2023/03/29-14:53:13.277946 2a8c                   Options.strict_bytes_per_sync: 0
+2023/03/29-14:53:13.277953 2a8c       Options.compaction_readahead_size: 0
+2023/03/29-14:53:13.277961 2a8c                  Options.max_background_flushes: -1
+2023/03/29-14:53:13.277970 2a8c Compression algorithms supported:
+2023/03/29-14:53:13.277978 2a8c 	kZSTD supported: 0
+2023/03/29-14:53:13.277985 2a8c 	kSnappyCompression supported: 0
+2023/03/29-14:53:13.277993 2a8c 	kBZip2Compression supported: 0
+2023/03/29-14:53:13.278000 2a8c 	kZlibCompression supported: 1
+2023/03/29-14:53:13.278007 2a8c 	kLZ4Compression supported: 1
+2023/03/29-14:53:13.278015 2a8c 	kXpressCompression supported: 0
+2023/03/29-14:53:13.278022 2a8c 	kLZ4HCCompression supported: 1
+2023/03/29-14:53:13.278029 2a8c 	kZSTDNotFinalCompression supported: 0
+2023/03/29-14:53:13.278039 2a8c Fast CRC32 supported: Not supported on x86
+2023/03/29-14:53:13.279102 2a8c [db\db_impl\db_impl.cc:401] Shutdown: canceling all background work
+2023/03/29-14:53:13.279146 2a8c [db\db_impl\db_impl.cc:577] Shutdown complete
